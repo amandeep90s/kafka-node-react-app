@@ -4,7 +4,7 @@ const async = require("async");
 const dotenv = require("dotenv");
 
 // Load environment variables
-config.dotenv();
+dotenv.config();
 
 // Configuration for the Kafka brokers
 const kafkaConfig = new Kafka({
